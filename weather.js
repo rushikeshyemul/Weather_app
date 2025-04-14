@@ -1,8 +1,8 @@
 import { createInterface } from "readline/promises";
 import process from "process";
 
-const API_KEY = "1aead8d0ef24e4d5abb3c4da8c36b681";
-const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
+const API_KEY = "your_weather_api"; // Apply API here
+const BASE_URL = "url"; // apply url here
 
 const rl = createInterface({
   input: process.stdin,
